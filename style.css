@@ -1,0 +1,59 @@
+/*FLEXBOX -------
+-------------- */
+
+#container{
+    background: rgb(105, 142, 209);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 250px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.item1{
+    background: rgb(156, 41, 41);
+    width: 200px;
+    height: 80px;
+}
+
+.item2{
+    background: rgb(15, 124, 52);
+    width: 200px;
+    height: 80px;
+}
+
+.item3{
+    background: rgb(38, 17, 156);
+    width: 200px;
+    height: 80px;
+}
+
+#container2{
+    background: rgb(141, 179, 140);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 250px;
+    padding-top: 10px;
+}
+
+.item4{
+    background: rgb(197, 235, 29);
+    width: 200px;
+    height: 80px;
+}
+
+.item5{
+    background: rgb(213, 69, 143);
+    width: 200px;
+    height: 80px;
+}
+
+.item6{
+    background: rgb(172, 100, 7);
+    width: 200px;
+    height: 80px;
+}
